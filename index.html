@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--To put correct ie classes on document root to essentially enable css conditionals-->
+<!--[if IE 7]>         <html class="lt-ie10 lt-ie9 lt-ie8" > <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie10 lt-ie9" > <![endif]-->
+<!--[if IE 9]>         <html class="lt-ie10" > <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en" > <!--<![endif]-->
+<!--end css conditionals-->
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>video-wrapper</title>
+
+    <link rel="stylesheet" href="styles/demo.css"/>
+    <link rel="stylesheet" href="styles/video-wrapper.css"/>
+    <script type="text/javascript" src="scripts/video-wrapper.js"></script>
+</head>
+<body>
+
+<div class="demo-container">
+    <h1>video-wrapper
+        <small  class="demo-version text--secondary">v0.0.1
+            <a href="https://github.com/skyglobal/video-wrapper" class="text--secondary">
+                <span class="demo-icon demo-icon--github"  aria-hidden=true></span>
+                <span class="speak">Github Repo</span>
+            </a></small>
+    </h1>
+
+    <p>
+        Demo component here!
+    </p>
+</div>
+
+
+<div class="demo-container">
+<h2>Standard Plugin</h2>
+
+<script type="text/javascript" src="scripts/video-wrapper.js"></script>
+<div id="demo-video" class="video-container" data-video-id="clip-00wgnqv1">
+    <img src="http://skyglobal.github.io/web-toolkit/static/wiki_images/bling-ring.jpg"
+         alt="David Beckham with Sky Sports Living for Sport participants Adam Brown, Eden Anderson, Michele Meola, Maariyah Atta, Conor Greensmith and Nahida Begum">
+
+    <a href="#!" class="play-video internal-link"
+       data-tracking-context="David Beckham And Sky Team Up">
+        <i class="skycon--video-play"></i>
+        <span class="speak">Play Trailer</span>
+    </a>
+</div>
+
+
+
+<script>
+    var videoWrapper = skyComponents['video-wrapper']
+
+    new videoWrapper.video(
+      $('#demo-video.video-container'),
+        {
+          token: '8D5B12D4-E1E6-48E8-AF24-F7B13050EE85', //this token should be unique to your team
+          displayAdverts: true,
+          onPlay: function() { //optional
+                    //stuff to do before video plays
+          },
+          closeCallback: function() { //optional
+                    //stuff to do after video closes
+        }
+      });
+
+
+
+
+</script>
+
+<h2>Requirements:</h2>
+<ul>
+
+<li>jQuery (//web-toolkit.global.sky.com/static/lib/jquery-1.9.1.min.js)</li>
+<li>Sky Video Player (//player.sky.com/plugin/jquery.sky.htmlplayer.js)</li>
+
+</ul>
+<script src="//web-toolkit.global.sky.com/static/lib/jquery-1.9.1.min.js"></script>
+<script src="//player.sky.com/plugin/jquery.sky.htmlplayer.js"></script>
+
+<h2>jQuery Plugin:</h2>
+<p>
+To use the video wrapper as a jQuery plugin, please use the <code> video-wrapper.jquery.js </code> file.</p>
+
+<pre>
+<code>
+
+  $('#demo-video.video-container').video({
+      token: '8D5B12D4-E1E6-48E8-AF24-F7B13050EE85', //this token should be unique to your team
+      displayAdverts: true,
+      onPlay: function() { //optional
+          //stuff to do before video plays
+      },
+      closeCallback: function() { //optional
+          //stuff to do after video closes
+      }
+  });
+
+
+</code>
+</pre>
+</div>
