@@ -10,7 +10,7 @@ module.exports = {
         scripts: 'browserify' // 'browserify' or 'requirejs'
     },
     test: false,
-    
+
     //  { // or false.  where your tests config, specs and reports are saved
     //     type: 'karma',//or mocha not yet available
     //     config: './test/karma.conf.js',
@@ -18,10 +18,10 @@ module.exports = {
     // },
     release: { // or false. add you release config here.
         type: 'aws',
-        bucket: process.env.YOUR_AWS_BUCKET,
-        accessKey: process.env.YOUR_AWS_ACCESS_KEY_ID,
-        secret: process.env.YOUR_AWS_SECRET_ACCESS_KEY,
-        region: process.env.YOUR_AWS_REGION,
+        bucket: process.env.AWS_SKYGLOBAL_BUCKET,
+        accessKey: process.env.AWS_ACCESS_KEY_ID,
+        secret: process.env.AWS_SECRET_ACCESS_KEY,
+        region: process.env.AWS_REGION,
         directoryPrefix: false //prefix your target release destination
     },
     serve: {

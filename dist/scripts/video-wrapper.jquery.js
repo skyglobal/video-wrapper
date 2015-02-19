@@ -313,7 +313,7 @@ module.exports = {
     removeEventListener: removeEventListener
 };
 },{}],5:[function(require,module,exports){
-module.exports = "0.0.1";
+module.exports = "0.0.2";
 },{}],6:[function(require,module,exports){
 arguments[4][5][0].apply(exports,arguments)
 },{"dup":5}],7:[function(require,module,exports){
