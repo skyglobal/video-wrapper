@@ -1,9 +1,9 @@
 {
     "name": "bskyb-video-wrapper",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "homepage": "https://github.com/skyglobal/video-wrapper",
     "authors": [
-        "Sabeur Thabti <{{ git.email }}>"
+        "Sabeur Thabti <thabti.sabeur@gmail.com>"
     ],
     "description": "video-wrapper",
     "main": "dist",
@@ -14,6 +14,8 @@
         "!src/**/*"
     ],
     "devDependencies": {
-        "bskyb-core": "~0.0.4"
+        "bskyb-core": "~0.0.4",
+        "bskyb-skycons": "~0.3.5",
+        "jquery": "~2.1.3"
     }
 }

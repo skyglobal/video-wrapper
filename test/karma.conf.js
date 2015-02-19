@@ -29,6 +29,7 @@ module.exports = function(config) {
         },
         files: [
             {pattern: '_site/*.html', watched: false },
+            {pattern: 'bower_components/jquery/dist/jquery.min.js', included: true },
             {pattern: 'bower_components/bskyb-*/src/**/*.js', included: true },
             {pattern: '_site/**/*.*', included: false, served: true},
             'src/**/*.js',

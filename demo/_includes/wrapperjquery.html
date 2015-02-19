@@ -1,0 +1,31 @@
+<h2>Requirements:</h2>
+<ul>
+
+<li>jQuery (//web-toolkit.global.sky.com/static/lib/jquery-1.9.1.min.js)</li>
+<li>Sky Video Player (//player.sky.com/plugin/jquery.sky.htmlplayer.js)</li>
+
+</ul>
+<script src="//web-toolkit.global.sky.com/static/lib/jquery-1.9.1.min.js"></script>
+<script src="//player.sky.com/plugin/jquery.sky.htmlplayer.js"></script>
+
+<h2>jQuery Plugin:</h2>
+<p>
+To use the video wrapper as a jQuery plugin, please use the <code> video-wrapper.jquery.js </code> file.</p>
+
+<pre>
+<code>
+
+  $('#demo-video.video-container').video({
+      token: '8D5B12D4-E1E6-48E8-AF24-F7B13050EE85', //this token should be unique to your team
+      displayAdverts: true,
+      onPlay: function() { //optional
+          //stuff to do before video plays
+      },
+      closeCallback: function() { //optional
+          //stuff to do after video closes
+      }
+  });
+
+
+</code>
+</pre>

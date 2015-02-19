@@ -5,13 +5,31 @@ function appendCSS(fileObj){
 appendCSS({path: '_site/styles/demo.css'});
 appendCSS({path: '_site/styles/video-wrapper.css'});
 
-var video-wrapper = skyComponents['video-wrapper'];
+var video = skyComponents['video-wrapper'];
 
-describe('video-wrapper module can ', function () {
+describe('video component', function () {
 
     it('sum an array of numbers', function () {
 
-        expect(video-wrapper.sum([1,2,3])).toBe(6);
+        expect(true).toBe(true);
+
+    });
+
+
+    it('will play the video when play is clicked', function () {
+
+
+    });
+
+    it('will stop + fade out when the ad and video have played', function () {
+
+    });
+
+    it('will stop + fade out when the close button is clicked', function () {
+
+    });
+
+    it('will stop + fade out when the video finishes', function () {
 
     });
 

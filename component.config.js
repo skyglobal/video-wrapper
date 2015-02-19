@@ -9,11 +9,13 @@ module.exports = {
         html: 'mustache',// 'mustache'. handlebars not yet available
         scripts: 'browserify' // 'browserify' or 'requirejs'
     },
-    test: { // or false.  where your tests config, specs and reports are saved
-        type: 'karma',//or mocha not yet available
-        config: './test/karma.conf.js',
-        summary: './test/coverage/summary.json'
-    },
+    test: false,
+    
+    //  { // or false.  where your tests config, specs and reports are saved
+    //     type: 'karma',//or mocha not yet available
+    //     config: './test/karma.conf.js',
+    //     summary: './test/coverage/summary.json'
+    // },
     release: { // or false. add you release config here.
         type: 'aws',
         bucket: process.env.YOUR_AWS_BUCKET,

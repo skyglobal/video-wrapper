@@ -1,2 +1,2 @@
 //if you need to intialise anything to get the demo to work...
-var video-wrapper = require('../../src/scripts/video-wrapper.js');
+var videoWrapper = require('../../src/scripts/video-wrapper.js');
