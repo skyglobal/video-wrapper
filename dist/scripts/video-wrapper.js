@@ -313,10 +313,10 @@ module.exports = {
     removeEventListener: removeEventListener
 };
 },{}],5:[function(require,module,exports){
-module.exports = "0.0.4";
+module.exports = "0.0.1";
 },{}],6:[function(require,module,exports){
-module.exports = "0.0.0";
-},{}],7:[function(require,module,exports){
+arguments[4][5][0].apply(exports,arguments)
+},{"dup":5}],7:[function(require,module,exports){
 'use strict';
 
 var core = require('../../bower_components/bskyb-core/src/scripts/core');
