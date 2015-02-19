@@ -1,0 +1,19 @@
+{
+    "name": "bskyb-video-wrapper",
+    "version": "0.0.0",
+    "homepage": "https://github.com/skyglobal/video-wrapper",
+    "authors": [
+        "Sabeur Thabti <{{ git.email }}>"
+    ],
+    "description": "video-wrapper",
+    "main": "dist",
+    "license": "BSD3",
+    "ignore": [
+        "**/*",
+        "!dist/**/*",
+        "!src/**/*"
+    ],
+    "devDependencies": {
+        "bskyb-core": "~0.0.4"
+    }
+}
