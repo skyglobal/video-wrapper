@@ -315,8 +315,8 @@ module.exports = {
 },{}],5:[function(require,module,exports){
 module.exports = "0.0.4";
 },{}],6:[function(require,module,exports){
-arguments[4][5][0].apply(exports,arguments)
-},{"dup":5}],7:[function(require,module,exports){
+module.exports = "0.0.5";
+},{}],7:[function(require,module,exports){
 var video = require('./video-wrapper');
 var Video = video.video;
 
