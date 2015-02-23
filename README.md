@@ -9,8 +9,8 @@
 Include the video-wrapper assets in your project either as **Static Resources**
 
 ```html
-<link rel="stylesheet" href="http://web-toolkit.global.sky.com/components/video-wrapper/0.0.4/styles/video-wrapper.min.css" />
-<script type="text/javascript" src="http://web-toolkit.global.sky.com/components/video-wrapper/0.0.4/scripts/video-wrapper.min.js"></script>
+<link rel="stylesheet" href="http://web-toolkit.global.sky.com/components/video-wrapper/0.0.2/styles/video-wrapper.min.css" />
+<script type="text/javascript" src="http://web-toolkit.global.sky.com/components/video-wrapper/0.0.2/scripts/video-wrapper.min.js"></script>
 ```
 
 or alternatively, **Via Bower**

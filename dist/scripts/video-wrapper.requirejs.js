@@ -365,10 +365,6 @@ function Video($container, options) {
         video.$wrapper.one('click touchstart', '.close', video.stop.bind(video));
         video.$player.one('ended webkitendfullscreen', video.stop.bind(video));
 
-
-
-
-
           if (video.options.freewheel) {
               video.$player.on('onSlotStarted', function () {
                   video.$player.off('ended webkitendfullscreen');
