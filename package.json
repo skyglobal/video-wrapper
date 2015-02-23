@@ -1,6 +1,6 @@
 {
     "name": "video-wrapper",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Example package.json. Feel free to copy!",
     "main": "index.js",
     "devDependencies": {
